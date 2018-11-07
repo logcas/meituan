@@ -1,15 +1,18 @@
 <template>
   <section class="container">
     <banner></banner>
+    <scenes></scenes>
   </section>
 </template>
 
 <script>
 import Banner from '@/components/index/Banner.vue';
+import Scenes from '@/components/index/Scenes.vue';
 
 export default {
   components: {
-    Banner
+    Banner,
+    Scenes
   }
 }
 </script>
